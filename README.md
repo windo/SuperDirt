@@ -47,11 +47,11 @@ d1 $ sound "[bd bd bd, sn cp sn cp]"
 d2 $ sound "[sn*2 imp bd*3]" |+| speed "1"
 ```
 
-##Options on startup
+## Options on startup
 - numChannels can be set to anything your soundcard supports
 - further server options, see [ServerOptions helpfile](http://doc.sccode.org/Classes/ServerOptions.html)
 
-##Options on-the-fly
+## Options on-the-fly
 - new channels can be created on the fly
 - you can pass the udp port on which superdirt is listening and the output channel offset (```.start(ports, channels)```)
 - add or edit [SynthDef files](https://github.com/musikinformatik/SuperDirt/blob/master/synths/default-synths.scd) to add your own synthesis methods to be called from tidal
